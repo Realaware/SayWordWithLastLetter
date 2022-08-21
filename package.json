@@ -1,0 +1,19 @@
+{
+  "name": "saywordwithlastletter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess 'node dist/src/index.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "axios": "^0.27.2",
+    "discord.js": "^14.2.0",
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.7.4"
+  }
+}
